@@ -30,14 +30,15 @@ body {
 	transition: transform .5s;
 }
 
-.memory-card.flip {
-	transform: rotateY(180deg);
-}
-
 .memory-card:active {
 	transform: scale(0.97);
 	transition: transform .2s;
 }
+
+.memory-card.flip {
+	transform: rotateY(180deg);
+}
+
 
 .front-face,
 .back-face {
