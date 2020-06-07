@@ -4,6 +4,13 @@
 	box-sizing: border-box;
 }
 
+h1{
+	font-family: Tahoma;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
 body {
 	height: 100vh;
 	display: flex;
@@ -49,4 +56,8 @@ body {
 	border-radius: 5px;
 	background: #B22743;
 	backface-visibility: hidden;
+}
+
+.front-face {
+	transform: rotateY(180deg);
 }
