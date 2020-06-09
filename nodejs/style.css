@@ -1,0 +1,92 @@
+body{
+	background-color: orange;
+	color: #333;
+	font: normal 18px Verdana, Geneva, sans-serif;
+	line-height: 1.5em;
+	margin: 10px 5px; 
+}
+
+h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+img, iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+.container {
+	margin: auto;
+	width: 80%; 
+}
+
+.box-1 {
+	background-color: #333;
+	color: #fff;
+	border: 5px #fff solid;
+	padding: 15px 32px;
+	margin: 20px 0;
+}
+
+.box-2 {
+	background-color: #333;
+	border: 5px #fff solid;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.videobox {
+	background-color: #333;
+	color: #fff;
+	border: 5px white solid;
+	padding: 15px 32px;
+	margin: 20px 0;
+
+}
+
+.my-form {
+	padding: 20px;
+}
+
+.my-form .form-group {
+	padding-bottom: 15px;
+}
+
+.my-form label {
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+	padding: 8px;
+	width: 100%;
+}
+
+.my-form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
